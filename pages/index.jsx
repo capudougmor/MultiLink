@@ -1,5 +1,4 @@
 import React from 'react';
-import GlobalStyles from './GlobalStyles'
 
 import Links from '../components/Links'
 
@@ -11,8 +10,6 @@ const Index = () => {
       <ul>
         <li><Links>AAA</Links></li>
       </ul>
-
-      <GlobalStyles />
     </>
   )
 }
