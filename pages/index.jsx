@@ -10,7 +10,9 @@ const Index = () => {
 
   return (
     <>
-      <img src='https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2016/05/c6904b9a52796f1c0353a3306e16b16e.jpg.jpeg'alt='Avatar' />
+      <div className="image">
+        <img className='img' src="https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2016/05/c6904b9a52796f1c0353a3306e16b16e.jpg.jpeg"/>
+      </div>
       <h1>dev</h1>
       <ul>
         { items.map(item => {
