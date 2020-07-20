@@ -2,7 +2,6 @@ import React from 'react';
 
 import Links from '../components/Links'
 import data from '../database/api'
-// import avatar from '../assets/garota.png'
 
 
 const Index = () => {
@@ -11,9 +10,9 @@ const Index = () => {
   return (
     <>
       <div className="image">
-        <img className='img' src="https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2016/05/c6904b9a52796f1c0353a3306e16b16e.jpg.jpeg"/>
+        <img className='img' src="https://i.ibb.co/0ZRTMVW/Image.png"/>
       </div>
-      <h1>dev</h1>
+      <h1>Douglas Mendes Assunção</h1>
       <ul>
         { items.map(item => {
           return (
@@ -26,4 +25,4 @@ const Index = () => {
   ) 
 }
 
-export default Index
+export default Index  
