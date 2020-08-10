@@ -9,18 +9,23 @@ const Index = () => {
 
   return (
     <>
-      <div className="image">
-        <img className='img' src="https://i.ibb.co/0ZRTMVW/Image.png"/>
-      </div>
-      <h1>Douglas Mendes Assunção</h1>
-      <ul>
-        { items.map(item => {
-          return (
-            <li><Links href={item.link} >{item.title}</Links></li>
-
-          )
-        })}
-      </ul>
+      <header>
+        <div className="image">
+          <img className='img' src="https://i.ibb.co/0ZRTMVW/Image.png"/>
+        </div>
+        <h1>Douglas Mendes Assunção</h1>
+      </header>
+        
+      <main>
+        <ul>
+          { items.map(item => {
+            return (
+              <li><Links href={item.link} imgUrl={item.imgUrl} >{item.title}</Links></li>
+            )
+          })}
+        </ul>
+      </main>
+      
     </>
   ) 
 }

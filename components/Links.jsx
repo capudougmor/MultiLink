@@ -1,10 +1,12 @@
 import React from 'react'
 
+// import logo from "https://i.ibb.co/PFs4jPc/curriculum-Img.png"
 
-const Links = ( {href, children} ) => {
+const Links = ( {href, imgUrl, children} ) => {
   return (
     <>
-      <a href={href}  >{ children }</a>
+      <img src={imgUrl} />      
+      <a href={href}  >{ children } </a>
     </>
   )
 }

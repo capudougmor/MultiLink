@@ -1,25 +1,43 @@
 
 const links = [
   {
-    title: "GitHub",
-    link: "https://github.com/capudougmor"
+    title: "Curriculum",
+    link: "https://capudougmor.github.io/",
+    imgUrl: "https://i.ibb.co/PFs4jPc/curriculum-Img.png"
   },
   
   {
-    title: "Linkedin",
-    link: "https://www.linkedin.com/in/douglasmendesassuncao"
+    title: "PalpiteBox",
+    link: "https://palpite-box-silk.vercel.app/",
+    imgUrl: "https://i.ibb.co/zH6jXfv/Palpite-Box-Img.png"
   },
-
+  
   {
-    title: "Medium",
-    link: "https://medium.com/@douglasmendesassuncao"
+    title: "Proffy",
+    link: "https://next-level-week2-sandy.vercel.app/",
+    imgUrl: "https://raw.githubusercontent.com/capudougmor/NextLevelWeek2/master/.github/layout.png"
   },
-
+  
   {
-    title: "Curriculum",
-    link: "https://capudougmor.github.io/"
+    title: "Be The Hero",
+    link: "https://omnistack.vercel.app/",
+    imgUrl: "https://i.ibb.co/NnM27dL/Be-The-Hero-Img.png"
+  },
+  
+  {
+    title: "Ecoleta",
+    link: "https://github.com/capudougmor/NSW",
+    imgUrl: "https://i.ibb.co/HBpBNZz/41.png"
+  },
+  
+  {
+    title: "Notas fácil",
+    link: "https://github.com/capudougmor/CRUDNotasComNode",
+    imgUrl: "https://i.ibb.co/G3mGY1c/Nota-Facil.gif"
   },
 
+
+  
   
 ]
 
