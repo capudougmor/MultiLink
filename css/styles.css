@@ -10,7 +10,7 @@
 }
 
 body {
-  background: linear-gradient(30deg, #5f5f5d, #14102f);
+  background: linear-gradient(30deg, #4f4f4d, #14102f);
   background-attachment: fixed;
 }
 
@@ -37,7 +37,7 @@ h1 {
   overflow: hidden;
   position: relative;
   box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-  border: #000 solid 3px;
+  border: #fff solid 4px;
   border-radius: 50%;
   display: flex;
 }

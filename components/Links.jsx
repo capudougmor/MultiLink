@@ -5,8 +5,10 @@ import React from 'react'
 const Links = ( {href, imgUrl, children} ) => {
   return (
     <>
-      <img src={imgUrl} />      
-      <a href={href}  >{ children } </a>
+      <a href={href}>
+        <img src={imgUrl} />      
+        { children } 
+      </a>
     </>
   )
 }

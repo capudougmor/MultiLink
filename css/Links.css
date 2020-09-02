@@ -6,53 +6,69 @@ header {
 }
 
 main {
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
-ul {  
-  border-radius: 8px;
+ul {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-items: center;
-  
 }
 
 
-li {
-  min-width: 250px;
+.card {
+  position: relative;
+  height: 440px;
+  min-width: 320px;
   width: 250px;
   background-color: #222233;
   padding: 20px;
-  margin: 16px;
-  
-  border: #222233 solid 1px;
-  border-radius: 8px;
-  
+  margin: 20px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0),  inset -5px -5px 15px rgba(255, 255, 255, 0.1),  5px 5px 15px rgba(0, 0, 0, 0.3),  -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+.card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2a2f;
+  border: 20x solid #1e1f23;
+  border-radius: 15px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  transition: 0.2s;
+}
+
+.card .box:hover {
+  box-shadow: 0 40px 70px rgba(0,0,0,0.6);
+  transform: translateY(-50px);
+}
+
+a {
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  
   text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  
+
 }
 
-li:hover {
-  opacity: 0.8;
-}
-
-li img {
-  width: 150px;
-  height: 100px;
+img {
+  width: 250px;
+  height: 200px;
   border-radius: 8px;
   margin: 10px 0;
+  object-fit: cover;
 }
 
 a {

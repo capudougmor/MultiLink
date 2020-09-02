@@ -11,7 +11,7 @@ const Index = () => {
     <>
       <header>
         <div className="image">
-          <img className='img' src="https://i.ibb.co/0ZRTMVW/Image.png"/>
+          <img className='img' src="https://avatars0.githubusercontent.com/u/60409911?s=400&u=8fdd6fe687515b06f34e33f6a4811e82d1f31712&v=4"/>
         </div>
         <h1>Douglas Mendes Assunção</h1>
       </header>
@@ -20,7 +20,11 @@ const Index = () => {
         <ul>
           { items.map(item => {
             return (
-              <li><Links href={item.link} imgUrl={item.imgUrl} >{item.title}</Links></li>
+              <div className='card'>
+                <div className='box' >
+                  <Links href={item.link} imgUrl={item.imgUrl} ><li>{item.title}</li></Links>
+                </div>                  
+              </div>                
             )
           })}
         </ul>
